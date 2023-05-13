@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685189244089",
+    "project_id": "crypto-list-flutter-app",
+    "storage_bucket": "crypto-list-flutter-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685189244089:android:07a37d085a45388a89e768",
+        "android_client_info": {
+          "package_name": "com.cryptoguys.crypto_coins_list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685189244089-j765nmruf7h586frisn59qf23bq0q4tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA88EnGqvaN6g8M_ihWv1zAwXn9YuP_hgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685189244089-j765nmruf7h586frisn59qf23bq0q4tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
