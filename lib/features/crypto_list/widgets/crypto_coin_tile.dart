@@ -22,7 +22,7 @@ class CryptoCoinTile extends StatelessWidget {
         width: 30,
       ), */
       leading: Image.network(
-        coin.imageUrl,
+        coin.details.fullImageUrl,
         width: 64,
         height: 64,
       ),
@@ -31,7 +31,7 @@ class CryptoCoinTile extends StatelessWidget {
         style: theme.textTheme.bodyMedium,
       ),
       subtitle: Text(
-        '${coin.priceinUSD}\$',
+        '${coin.details.priceinUSD}\$',
         style: theme.textTheme.labelSmall,
       ),
       trailing: Icon(Icons.arrow_forward_ios),
