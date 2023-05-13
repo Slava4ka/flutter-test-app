@@ -60,7 +60,7 @@ class _CryptoListScreenState extends State<CryptoListScreen> {
                   itemCount: state.coinsList
                       .length, // без счетчика будет бесконечное количество тайлов
                   itemBuilder: (context, index) {
-                    final coin = state.coinsList[index];
+                    final coin = state.sortedCoinsList[index];
 
                     return CryptoCoinTile(coin: coin);
                   },

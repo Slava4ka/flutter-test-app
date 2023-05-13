@@ -15,6 +15,11 @@ class CryptoListLoading extends CryptoListState {
 class CryptoListLoaded extends CryptoListState {
   final List<CryptoCoin> coinsList;
 
+  // Calling toList() copies the list.
+  // The .. is to get a reference to the list itself since sort() is a void function.
+  List<CryptoCoin> get sortedCoinsList => coinsList.toList()
+    ..sort((a, b) => b.details.priceinUSD.compareTo(a.details.priceinUSD));
+
   CryptoListLoaded({required this.coinsList});
 
   @override
